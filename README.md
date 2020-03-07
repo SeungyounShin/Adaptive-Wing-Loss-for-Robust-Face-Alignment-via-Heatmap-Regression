@@ -19,35 +19,21 @@ URL : [300W](https://ibug.doc.ic.ac.uk/resources/300-W/)
 2. locate 300W images, pts files according to this structure
 
 data
+```
 |-- 300W
 |   |-- 01_Indoor
 |   |-- 02_Ourdoor
+```
+
 
 To train a model with downloaded dataset:
 
-    $ python main.py --dataset mnist --input_height=28 --output_height=28 --train
-    $ python main.py --dataset celebA --input_height=108 --train --crop
+    $ python train.py
 
-To test with an existing model:
+To test single image result:
 
-    $ python main.py --dataset mnist --input_height=28 --output_height=28
-    $ python main.py --dataset celebA --input_height=108 --crop
+    $ python detect.py
 
-Or, you can use your own dataset (without central crop) by:
-
-    $ mkdir data/DATASET_NAME
-    ... add images to data/DATASET_NAME ...
-    $ python main.py --dataset DATASET_NAME --train
-    $ python main.py --dataset DATASET_NAME
-    $ # example
-    $ python main.py --dataset=eyes --input_fname_pattern="*_cropped.png" --train
-
-If your dataset is located in a different root directory:
-
-    $ python main.py --dataset DATASET_NAME --data_dir DATASET_ROOT_DIR --train
-    $ python main.py --dataset DATASET_NAME --data_dir DATASET_ROOT_DIR
-    $ # example
-    $ python main.py --dataset=eyes --data_dir ../datasets/ --input_fname_pattern="*_cropped.png" --train
 
 ## Results
 

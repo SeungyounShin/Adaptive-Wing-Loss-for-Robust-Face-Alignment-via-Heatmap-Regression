@@ -43,6 +43,6 @@ To test single image result:
 ## Related works
 
 ## Reference
-+ CoordConv reference :: [CoordConv](https://github.com/mkocabas/CoordConv-pytorch)
-+ Stacked Hourglass reference :: [Stacked Hourglass](https://github.com/princeton-vl/pytorch_stacked_hourglass)
-+ Similar repo :: [AdaptiveWingLoss](https://github.com/protossw512/AdaptiveWingLoss)
++ [CoordConv](https://github.com/mkocabas/CoordConv-pytorch)
++ [Stacked Hourglass](https://github.com/princeton-vl/pytorch_stacked_hourglass)
++ [AdaptiveWingLoss](https://github.com/protossw512/AdaptiveWingLoss)

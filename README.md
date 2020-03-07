@@ -5,6 +5,10 @@ ongoing...
 Pytorch implementation of [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399). 
 
 ## Prerequisites
++ Python 3.6 +
++ Pytorch 1.1.0
++ Scipy 0.19.1
++ cv2 3.3.0
 
 ## Usage
 

@@ -13,8 +13,11 @@ Pytorch implementation of [Adaptive Wing Loss for Robust Face Alignment via Heat
 ## Usage
 
 First, download dataset(Currently 300W supported).
+
 **300W**
+
 URL : [300W](https://ibug.doc.ic.ac.uk/resources/300-W/)
+
 1. download [part1] ~ [part2]
 2. locate 300W images, pts files according to this structure
 

@@ -9,6 +9,8 @@ Pytorch implementation of [Adaptive Wing Loss for Robust Face Alignment via Heat
 
 official implementation can be found at [official](https://github.com/protossw512/AdaptiveWingLoss). 
 
+blog post about the paper(korean) can be found [here](https://medium.com/@ssy10011218/adaptivewingloss-%EB%B0%91%EB%B0%94%EB%8B%A5-%EB%B6%80%ED%84%B0-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B4%EA%B8%B0-d65f495862f). 
+
 <p align="center"><img src="https://github.com/SeungyounShin/Adaptive-Wing-Loss-for-Robust-Face-Alignment-via-Heatmap-Regression/blob/master/assets/%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA3.png?raw=true" alt="result" width="60%"></p>
 
 

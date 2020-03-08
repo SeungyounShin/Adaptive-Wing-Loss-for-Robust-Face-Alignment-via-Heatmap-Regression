@@ -1,6 +1,6 @@
 # Adaptive-Wing-Loss-for-Robust-Face-Alignment-via-Heatmap-Regression
 
-ongoing...
+<p align="center"><img src="assets/승윤결과3.png" alt="model" width="80%"></p>
 
 Pytorch implementation of [Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression](https://arxiv.org/abs/1904.07399). 
 

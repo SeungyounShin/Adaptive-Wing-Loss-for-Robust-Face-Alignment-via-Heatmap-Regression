@@ -52,10 +52,10 @@ evalutaion on 300W testing dataset
 
 evaluation result will soon be updated
 
-| method        |  NME    | FR(10)|
-| ------------- |:-------:| -----:|
-| the paper     | 3.07    |   X   |
-| this repo     | x       |  0.8  |
+| method        |  NME    | FR(10) |
+| ------------- |:-------:| :-----:|
+| the paper     | 3.07    | X      |
+| this repo     | x       | 0.8    |
 
 
 

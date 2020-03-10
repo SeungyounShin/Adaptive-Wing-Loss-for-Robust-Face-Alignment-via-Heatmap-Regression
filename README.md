@@ -19,6 +19,7 @@ blog post about the paper(korean) can be found [here](https://medium.com/@ssy100
 - [ ] provide pretrained weight
 - [ ] apply different model (such as DLA, Unet)
 - [ ] apply similar loss (such as Focal-loss)
+- [ ] apply Integral regression moduel (AWing + Integral)
 
 
 ## Prerequisites

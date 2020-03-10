@@ -17,6 +17,9 @@ blog post about the paper(korean) can be found [here](https://medium.com/@ssy100
 - [ ] performance tuning
 - [ ] dependency check
 - [ ] provide pretrained weight
+- [ ] apply different model (such as DLA, Unet)
+- [ ] apply similar loss (such as Focal-loss)
+
 
 ## Prerequisites
 + Python 3.6 +

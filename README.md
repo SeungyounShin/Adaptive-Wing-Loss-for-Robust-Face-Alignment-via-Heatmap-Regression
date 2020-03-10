@@ -47,6 +47,9 @@ To test single image result:
 ## Model overview
 <p align="center"><img src="assets/hourglass.png" alt="model" width="60%"></p>
 
+more detail about model 
+<p align="center"><img src="assets/model_overview.png" alt="model" width="60%"></p>
+
 ## evalutaion
 evalutaion on 300W testing dataset
 

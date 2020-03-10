@@ -49,7 +49,7 @@ for iteration,sample in enumerate(test_loader):
         ind2.append([mx+dx, my+dy])
 
     ind2 = np.array(ind2).astype(np.float64)
-    pred = (pred*3+ind2)/4.
+    pred = (pred*3+ind2)/4. #move a quarter pixel toward 2nd largest
     pred *= (256/64.)
 
     gt = pts.squeeze().numpy()

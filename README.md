@@ -47,11 +47,18 @@ To test single image result:
 ## Model overview
 <p align="center"><img src="assets/hourglass.png" alt="model" width="60%"></p>
 
-## Results
-
-## Training details
-
 ## evalutaion
+evalutaion on 300W testing dataset
+
+evaluation result will soon be updated
+╔═══════════╦════════════╦═══════════╗
+║  method   ║     NME    ║   FR(10)  ║
+╠═══════════╬════════════╬═══════════╣
+║   paper   ║    3.07    ║     X     ║
+╠═══════════╬════════════╬═══════════╣
+║ this repo ║     X      ║    0.8    ║
+╚═══════════╩════════════╩═══════════╝
+
 
 ## Reference
 + [CoordConv](https://github.com/mkocabas/CoordConv-pytorch)

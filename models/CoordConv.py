@@ -24,8 +24,8 @@ class AddCoords(nn.Module):
         xx_channel = xx_channel * 2 - 1
         yy_channel = yy_channel * 2 - 1
 
-        xx_channel = xx_channel.repeat(batch_size, 1, 1, 1).transpose(2, 3)
-        yy_channel = yy_channel.repeat(batch_size, 1, 1, 1).transpose(2, 3)
+        xx_channel = xx_channel.repeat(batch_size, 1, 1, 1).transpose(2, 3).cuda()
+        yy_channel = yy_channel.repeat(batch_size, 1, 1, 1).transpose(2, 3).cuda()
 
         ret = torch.cat([
             input_tensor,
@@ -41,12 +41,10 @@ class AddCoords(nn.Module):
             boundary_map = boundary_map.view(boundary_map.shape[0],1,boundary_map.shape[1],boundary_map.shape[2])
             boundary_channel = torch.clamp(boundary_map,0.0, 1.0)
             zero_tensor = torch.zeros_like(xx_channel)
-            xx_boundary_channel = torch.where(boundary_channel>0.05,
-                                              xx_channel, zero_tensor)
-            yy_boundary_channel = torch.where(boundary_channel>0.05,
-                                              yy_channel, zero_tensor)
+            xx_boundary_channel = torch.where(boundary_channel>0.05, xx_channel, zero_tensor)
+            yy_boundary_channel = torch.where(boundary_channel>0.05, yy_channel, zero_tensor)
 
-            ret = torch.cat([ret, xx_channel, yy_channel], dim=1)
+            ret = torch.cat([ret, xx_boundary_channel, yy_boundary_channel], dim=1)
 
         return ret
 

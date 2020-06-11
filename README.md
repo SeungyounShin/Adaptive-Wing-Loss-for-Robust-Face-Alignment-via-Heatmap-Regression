@@ -13,6 +13,7 @@ blog post about the paper(korean) can be found [here](https://medium.com/@ssy100
 
 📝 TODO
 - [x] prototype
+- [ ] albumentation data augmentation 
 - [ ] evalutaion on 300W + data augmentation
 - [ ] performance tuning
 - [ ] dependency check
